@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="ocean style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" type="image" href="image-removebg-preview.png">
+
+
+    <title>Ocean Habitat</title>
+</head>
+
+<body>
+    <header>
+        <!-- Header -->
+
+        <div class="p-5 text-white text-center" style="background-color: #00B7EB;">
+            <img class="imag" src="image-removebg-preview.png" alt="logo">
+            <h1>Ocean Habitat</h1>
+            <p>The ocean is a huge body of saltwater that covers about 71 percent of Earth's surface. The planet has one
+                global ocean, though oceanographers and the countries of the world have traditionally divided it into
+                four distinct regions: the Pacific, Atlantic, Indian, and Arctic oceans.
+
+                Oceans are areas of salty water that fill enormous basins on the Earths surface.
+                Even though Earth has one continuous body of saltwater,
+                scientists and geographers divide it into five different sections. From biggest to smallest,
+                they are the Pacific, the Atlantic, the Indian, the Southern, and the Arctic Oceans.
+
+                Oceans are deep as well as wide. On average an ocean is a little over two miles deep.
+                But about 200 miles southwest of Guam in the Pacific Ocean,
+                the water in the Mariana Trench is almost seven miles deep.
+                That's the deepest part of the ocean
+            </p>
+        </div>
+
+        <nav class="navbar navbar-expand-sm nave coloro" style="position: sticky;">
+            <div class="container-fluid" style="position:static">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="desert.html">Desert Habitats</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="forest.html">Forest Habitats</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+    <!-- header ends -->
+
+    <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2NlYW58ZW58MHx8MHx8&w=1000&q=80"
+                    alt="desert1" class="a-block w-100 h-20">
+            </div>
+            <div class="carousel-item small">
+                <img src="https://c4.wallpaperflare.com/wallpaper/606/273/262/reef-ocean-sea-underwater-high-resolution-pictures-school-of-fish-wallpaper-preview.jpg"
+                    alt="desert2" class="a-block w-100 h-20">
+            </div>
+            <div class="carousel-item">
+                <img src="https://www.teahub.io/photos/full/2-23358_fish-nature-high-definition-sea-cool-fishes-sealife.jpg"
+                    alt="desert3" class="a-block w-100 h-20">
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+    <!--Information on desert animals and plants-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bottom" style="background-color : #00B7EB; position:sticky;">
+        <div class="container-fluid sections-navbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#section1">Animals Of The Ocean</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#section2">Plants Of The Ocean</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="border"></div>
+    <div id="section1" class="container-fluid coloro text-red" style="padding:100px 20px;">
+        <div class="alin">
+            <h1 style="padding-bottom: 50px"><u>Animals Of The Ocean</u></h1>
+            <div class="cards-img">
+                <div class="card" style="width: 400px;">
+
+                    <img src="data:image/jpeg;base64,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"
+                        class="card-img-top">
+
+                    <div class="card-body" style="background-color: #00B7EB;">
+                        <h5 class="card-title">Blue Whale</h5>
+                        <p class="card-text">Blue whales are the largest animals ever known to have lived on Earth.
+                            These magnificent marine mammals rule the oceans at up to 100 feet long and upwards of 200
+                            tons.
+                            Their tongues alone can weigh as much as an elephant.
+                            Their hearts, as much as an automobile.</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 400px;">
+                    <img src="sting ray.jpg" class="card-img-top">
+
+
+                    <div class="card-body" style="background-color: #00B7EB;">
+                        <h5 class="card-title">Sting Ray</h5>
+                        <p class="card-text">Like its shark relatives, the stingray is outfitted with electrical sensors
+                            called ampullae of Lorenzini.
+                            Located around the stingray's mouth, these organs sense the natural electrical charges of
+                            potential prey.
+                            Many rays have jaw teeth to enable them to crush mollusks such as clams,
+                            oysters and mussels.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid"
+        style="padding:100px 100px; background-color  :#0ABAB5;align-items: center;align-content: right;">
+        <h1>How do other animals affect their Habitats?</h1>
+        <p>Organisms like reefs help the ocean by producing oxygen which make the oceanic waters more rich, <br>
+            if these reefs die at the rate they are dying now the oceans will lose their oxygen rich water by the year
+            2050 <br>
+            this will make the waters even more poluted.This is a major threat as objects like plastics polute the water
+            even further</p>
+    </div>
+    <div class="border"></div>
+    <div id="section2" class="container-fluid coloro text-red" style="padding:100px 20px;">
+        <div class="alin">
+            <h1 style="padding-bottom: 50px"><u>Plants Of The Ocean</u></h1>
+            <div class="cards-img">
+                <div class="card" style="width: 400px;">
+
+                    <img src="pondweed.jpg" class="card-img-top">
+
+                    <div class="card-body" style="background-color: #00B7EB;">
+                        <h5 class="card-title">Pondweed</h5>
+                        <p class="card-text">Potamogeton is a genus of aquatic, mostly freshwater, plants of the family
+                            Potamogetonaceae. Most are known by the common name pondweed, although many unrelated plants
+                            may be called pondweed, such as Canadian pondweed</p>
+                    </div>
+                </div>
+                <div class="card" style="width: 400px;">
+                    <img src="coral.jpg" class="card-img-top">
+
+
+                    <div class="card-body" style="background-color: #00B7EB;">
+                        <h5 class="card-title">Purple Coral</h5>
+                        <p class="card-text">A purple coral is made of numerous slender
+                            cylindrical spindles that may grow to a height of 12 centimetres, with individual
+                            spindles being 2–6 millimeters thick. The color is purple or lavender, although the color
+                            fades to tan in older specimens.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid"
+        style="padding:100px 20px; background-color  :#0ABAB5;align-items: center;align-content: right;">
+        <h1>How do other animals affect their Habitats?</h1>
+        <p>Organisms like reefs help the ocean by producing oxygen which make the oceanic waters more rich, <br>
+            if these reefs die at the rate they are dying now the oceans will lose their oxygen rich water by the year
+            2050 <br>
+            this will make the waters even more poluted.This is a major threat as objects like plastics polute the water
+            even further</p>
+    </div>
+    <!--info ends -->
+
+    <hr>
+
+    <section class="foot">
+        <!-- Footer -->
+        <footer class="bg-secondary text-white text-center">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Code For 4</h5>
+
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
+                            molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae
+                            aliquam voluptatem veniam, est atque cumque eum delectus sint!
+                        </p>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2020 Copyright:
+                <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+    </section>
+</body>
+
+</html>

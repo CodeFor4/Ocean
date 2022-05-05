@@ -1,0 +1,38 @@
+/* most of the styles are using bootstrap */
+
+body {
+    align-content: space-between;
+
+}
+
+#titl {
+    font-family: fantasy;
+    color: white;
+    padding-left: 20%;
+    margin-right: 10%;
+    font-size: 100px;
+}
+
+.imag {
+    height: 100px;
+    width: 100px;
+}
+
+.coloro {
+    background-color: #6495ED;
+}
+
+.alin div {
+    float: left;
+    font-display: flex;
+}
+
+.cards-img {
+    align-content: space-around;
+    flex-direction: row;
+    flex: 50%;
+}
+
+.border{
+    background-color: black;
+}
